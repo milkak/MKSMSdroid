@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright (C) 2014 Arpit Khurana <arpitkh96@gmail.com>, Vishal Nehra <vishalmeham2@gmail.com>
+
+    This file is part of Amaze File Manager.
+
+    Amaze File Manager is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+    -->
+
+<resources>
+    <attr name="popup" format="reference" />
+    <attr name="toolbar_theme" format="reference" />
+    <attr name="ripple_color" format="color" />
+    <attr name="toolbar_shadow" format="reference" />
+    <attr name="title_text" format="color" />
+    <attr name="body_text" format="color" />
+    <attr name="drawer_background" format="color" />
+    <attr name="empty_text" format="color" />
+    <attr name="inset_divider" format="color" />
+
+    <attr name="menu_selector" format="reference" />
+    <attr name="list_selector" format="reference" />
+    <attr name="overflow" format="reference" />
+    <attr name="empty_image" format="reference" />
+    <attr name="empty_image_error" format="reference" />
+
+    <dimen name="feed_item_margin">10dp</dimen>
+    <dimen name="feed_item_padding_top_bottom">20dp</dimen>
+    <dimen name="feed_item_padding_left_right">15dp</dimen>
+    <dimen name="feed_item_profile_pic">50dp</dimen>
+    <dimen name="feed_item_profile_info_padd">10dp</dimen>
+    <dimen name="feed_item_profile_name">15dp</dimen>
+    <dimen name="feed_item_timestamp">13dp</dimen>
+    <dimen name="feed_item_status_pad_left_right">15dp</dimen>
+    <dimen name="feed_item_status_pad_top">13dp</dimen>
+    <dimen name="feed_item_corner_radius">4dp</dimen>
+    <dimen name="feed_item_border_width">1dp</dimen>
+
+
+    <attr name="fab_overlay_color" format="color" />
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="insetForeground" format="reference|color"/>
+    </declare-styleable>
+</resources>

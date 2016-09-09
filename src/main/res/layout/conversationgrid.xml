@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009-2012 Felix Bechstein -->
+<!--
+		This file is part of SMSdroid. This program is free software; you can
+		redistribute it and/or modify it under the terms of the GNU General
+		Public License as published by the Free Software Foundation; either
+		version 3 of the License, or (at your option) any later version.
+-->
+<!--
+		This program is distributed in the hope that it will be useful, but
+		WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+		General Public License for more details. You should have received a
+		copy of the GNU General Public License along with this program; If
+		not, see <http://www.gnu.org/licenses/>.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <include layout="@layout/toolbarnew"/>
+
+    <android.support.v4.widget.DrawerLayout
+
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarnew">
+
+
+        <FrameLayout
+            android:id="@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <!--
+                    android:layout_gravity="start" tells DrawerLayout to treat
+                    this as a sliding drawer on the left side for left-to-right
+                    languages and on the right side for right-to-left languages.
+                    The drawer is given a fixed width in dp and extends the full height of
+                    the container. A solid background is used for contrast
+                    with the content view.-->
+
+
+
+
+
+            <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@android:id/list"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="?android:attr/colorBackground"
+                android:columnWidth="120dp"
+                android:horizontalSpacing="1dp"
+                android:numColumns="auto_fit"
+                android:scrollingCache="true"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="1dp"/>
+
+
+        </RelativeLayout>
+
+        <!--DRAWER -->
+        <LinearLayout
+            android:id="@+id/drawer_view"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="start"
+            android:background="@drawable/bg_parent_rounded_corner">
+
+            <!-- Header Start -->
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+
+
+
+            </RelativeLayout>
+
+            <!-- Header End -->
+
+
+            <ListView
+                android:id="@+id/list_slidermenu"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:choiceMode="singleChoice"
+                android:divider="@color/list_divider"
+                android:dividerHeight="1dp"
+                android:listSelector="@drawable/list_selector"
+                android:background="@color/list_background"/>
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        app:fab_colorRipple="#77777777"
+        app:fab_type="mini"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_new"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#3f51b5</color>
+    <color name="list_background">#ffffff</color>
+    <color name="list_background_pressed">#f5f5f5</color>
+    <color name="list_divider">#ffffff</color>
+
+    <color name="black">#ffffff</color>
+    <color name="red">#F00</color>
+    <color name="grey">@android:color/holo_blue_light</color>
+    <color name="white">#ffffff</color>
+    <color name="skyblue">#ff33b5e5</color>
+    <color name="grassgreen">#ff99cc00</color>
+    <color name="fixcolor">#ffaa66cc</color>
+    <color name="my_fab_color">#ff3e82</color>
+
+
+    <color name="accHigh">#669900</color>
+    <color name="accMedium">#FF8800</color>
+    <color name="accLow">#CC0000</color>
+    <color name="accUnreliable">#9933CC</color>
+
+    <color name="theme1">@android:color/holo_blue_light</color>
+    <color name="theme2">#9c27b0</color>
+    <color name="theme3">#ff4444</color>
+    <color name="theme4">#ff4081</color>
+    <color name="theme5">#009688</color>
+    <color name="theme6">#607d8b</color>
+
+    <color name="theme1dark">@android:color/holo_blue_dark</color>
+    <color name="theme2dark">#8e24aa</color>
+    <color name="theme3dark">#e53935</color>
+    <color name="theme4dark">#e91e63</color>
+    <color name="theme5dark">#00897b</color>
+    <color name="theme6dark">#546e7a</color>
+
+
+    <color name="theme_primary">#673ab7</color>
+    <color name="holo">#8833B5E5</color>
+    <color name="safr">#5f777777</color>
+    <color name="safrs">#5f777777</color>
+    <color name="bar">#3f333333</color>
+    <color name="toolbar_cab">#303030</color>
+    <color name="primaryColor_500">#03a9f4</color>
+    <color name="primaryDarkColor_700">#0288d1</color>
+    <color name="safr_pressed_dark">#ff282828</color>
+    <color name="safr_pressed">#ffd7d7d7</color>
+
+
+    <color name="primary_indigo">#3f51b5</color>
+    <color name="primary_blue">#5677fc</color>
+    <color name="primary_light_blue">#03a9f4</color>
+    <color name="primary_teal">#009688</color>
+    <color name="primary_light_green">#8bc34a</color>
+    <color name="primary_green">#259b24</color>
+    <color name="primary_lime">#cddc39</color>
+    <color name="primary_yellow">#ffeb3b</color>
+    <color name="primary_amber">#ffc107</color>
+    <color name="primary_orange">#ff9800</color>
+    <color name="primary_red">#e51c23</color>
+    <color name="Gray">#808080</color>
+
+    <color name="feed_item_bg" >#ff394799</color>
+    <color name="feed_item_border" >#ffffffff</color>
+
+    <color name="color_primary_dark">#800000</color>
+    <color name="light">#800080</color>
+    <color name="accent">#FF0000</color>
+
+    <color name="cabinet_color">#1976D2</color>
+    <color name="cabinet_accent_color">#e91e63</color>
+    <color name="dark_theme_gray">#1F1F1F</color>
+    <color name="dark_theme_gray_darker">#292929</color>
+    <color name="non_colored_folder">#424242</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="drawer_background">#fff</color>
+    <color name="dark_background">#242424</color>
+
+    <color name="empty_text">#C7C7C7</color>
+    <color name="empty_text_dark">#575757</color>
+    <color name="button_disabled">#ddd</color>
+    <color name="button_disabled_dark">#303030</color>
+
+
+</resources>

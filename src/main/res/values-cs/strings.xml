@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+        Copyright (C) 2009-2012 Felix Bechstein
+    -->
+    <!--
+        This file is part of SMSdroid. This program is free software; you can
+        redistribute it and/or modify it under the terms of the GNU General
+        Public License as published by the Free Software Foundation; either
+        version 3 of the License, or (at your option) any later version.
+    -->
+    <!--
+        This program is distributed in the hope that it will be useful, but
+        WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+        General Public License for more details. You should have received a
+        copy of the GNU General Public License along with this program; If
+        not, see <http://www.gnu.org/licenses/>.
+    -->
+<resources>
+    <string name="about_">O</string>
+    <string name="about_hint">O aplikaci</string>
+    <string name="feedback_">Feedback</string>
+    <string name="feedback_hint">Zprávy o chybách, požadavky na nové funkce...</string>
+    <string name="google_plus_hint">Follow me on Google+.\nGet update notifications etc.</string>
+    <string name="about0">SMSdroid vám dovolí číst vaše sms a psát sms s jinými aplikacemi</string>
+    <string name="more_apps_">Více Apps..</string>
+    <string name="settings">Nastavení</string>
+    <string name="new_message_">Nová zpráva</string>
+    <string name="new_message">1 nepřečtená zpráva.</string>
+    <string name="new_messages_">Nové zprávy.</string>
+    <string name="new_messages">%d nepřečtené zprávy.</string>
+    <string name="reply">Odpověď</string>
+    <string name="send_">Odeslat</string>
+    <string name="notification_">Oznámení</string>
+    <string name="notification_enable_">Zapnout oznamování.</string>
+    <string name="notification_enable_hint">Zapnout oznamování při příjmu.</string>
+    <string name="receive_vibrate_">Vibrace</string>
+    <string name="receive_sound_">Zvuk</string>
+    <string name="receive_sound_hint">Zvuk při příjmu</string>
+    <string name="receive_led_color_">LED barva</string>
+    <string name="receive_led_flash_">LED mode</string>
+    <string name="behavior_">Chování</string>
+    <string name="autosend_">Auto odeslání</string>
+    <string name="appearance_and_behavior_">Vzhled &amp; chování</string>
+    <string name="show_text_field_">Zobraz textové pole.</string>
+    <string name="show_target_app_hint">Show target App used for sending on \"send\" Button.</string>
+    <string name="appearance_">Vzhled</string>
+    <string name="theme_">Motiv</string>
+    <string name="textcolor_ignore_conv_">Ignorovat barvu textu u vláken. </string>
+    <string name="show_titlebar_">Zobraz titulkový bar</string>
+    <string name="show_titlebar_hint">Zobraz titulkový bar v hlavním pohledu. Without title bar, there is no way to see background activity.</string>
+    <string name="show_contact_photo_">Zobraz photo</string>
+    <string name="show_emoticons_">Zobrazit emotikony</string>
+    <string name="show_emoticons_hint">Zobrazit emotikony v seznamu zpráv</string>
+    <string name="show_bubbles_">Zobraz bubbles</string>
+    <string name="hide_restore_hint">Schovat tlačítko "uložení poslední zprávy" v seznamu zpráv</string>
+    <string name="show_full_date_">Zobrazení celého data</string>
+    <string name="show_full_date_hint">Zobraz celé datum a čas u každé zprávy.</string>
+    <string name="add_contact_">přidat do kontaktů</string>
+    <string name="view_thread_">Zobrazit vlákno.</string>
+    <string name="dont_filter_spam_">Odstranit z Blacklist</string>
+    <string name="delete_message_">Smazat zprávu</string>
+    <string name="delete_thread_">Smazat thread</string>
+    <string name="send_draft_">Send draft</string>
+    <string name="spek_">Mluvit</string>
+    <string name="delete_threads_">Smazat včechny threads</string>
+    <string name="mark_read_">Označit přečtený</string>
+    <string name="mark_unread_">Ozančit nepřečtený</string>
+    <string name="all_threads_">Všechna vlákna</string>
+    <string name="compose_">Sepsat</string>
+    <string name="delete_message_question">Opravdu chcete smazat tuto zprávu?</string>
+    <string name="delete_messages_question">Opravdu chcete smazat tyto zprávy?</string>
+    <string name="delete_thread_question">Opravdu chcete smazat </string>
+    <string name="delete_threads_question">Opravdu chcete smazat </string>
+    <string name="from_">Od:</string>
+    <string name="to_">To:</string>
+    <string name="type_">Type:</string>
+    <string name="sent_">Odeslat:</string>
+    <string name="received_">Přijatá:</string>
+    <string name="view_mms">Zobrazit MMS</string>
+    <string name="mms_conversation">&lt;MMS tělo&gt;</string>
+    <string name="import_contact_">Import kontaktů</string>
+    <string name="download_">Download</string>
+    <string name="downloading_">Downloading..</string>
+    <string name="debug_">Debug</string>
+    <string name="clear_cache_">Vymazat cache</string>
+    <string name="error_conv_null">Zjištena chyba při konverzi z DB!</string>
+    <string name="text_hint">Text</string>
+    <string name="paste_">[Vložit z clipboardu]</string>
+    <string name="attachment_saved">Uložena příloha na SD kartu jako:</string>
+    <string name="chooser_">Výběr</string>
+    <string name="notification_default_">Default</string>
+    <string name="notification_gingerbread_">Gingerbread</string>
+    <string name="notification_gingerbread_mail_">Gingerbread mail</string>
+    <string name="notification_black_">Black</string>
+    <string name="notification_green_">Green</string>
+    <string name="notification_yellow_">Yellow</string>
+    <string name="bubbles_in_">Bubbles in</string>
+    <string name="bubbles_in_hint">Bubbles pro příchozí zprávy</string>
+    <string name="bubbles_out_">Bubbles out</string>
+    <string name="bubbles_out_hint">Bubbles pro odchozí zprávy</string>
+    <string name="bubbles_nothing">Nic</string>
+    <string name="bubbles_plain_dark_gray">Plain dark gray</string>
+    <string name="bubbles_plain_light_gray">Plain light gray</string>
+    <string name="bubbles_old_turquoise_left">Old turquoise left</string>
+    <string name="bubbles_old_turquoise_right">Old turquoise right</string>
+    <string name="bubbles_old_green_left">Old green left</string>
+    <string name="bubbles_old_green_right">Old green right</string>
+    <string name="bubbles_blue_left">Blue left</string>
+    <string name="bubbles_blue_right">Blue right</string>
+    <string name="bubbles_blue2_left">Blue 2 left</string>
+    <string name="bubbles_blue2_right">Blue 2 right</string>
+    <string name="bubbles_brown_left">Brown left</string>
+    <string name="bubbles_brown_right">Brown right</string>
+    <string name="bubbles_gray_left">Gray left</string>
+    <string name="bubbles_gray_right">Gray right</string>
+    <string name="bubbles_green_left">Green left</string>
+    <string name="bubbles_green_right">Green right</string>
+    <string name="bubbles_green2_left">Green 2 left</string>
+    <string name="bubbles_green2_right">Green 2 right</string>
+    <string name="bubbles_orange_left">Orange left</string>
+    <string name="bubbles_orange_right">Orange right</string>
+    <string name="bubbles_pink_left">Pink left</string>
+    <string name="bubbles_pink_right">Pink right</string>
+    <string name="bubbles_purple_left">Purple left</string>
+    <string name="bubbles_purple_right">Purple right</string>
+    <string name="bubbles_white_left">White left</string>
+    <string name="bubbles_white_right">White right</string>
+    <string name="bubbles_yellow_left">Yellow left</string>
+    <string name="bubbles_yellow_right">Yellow right</string>
+    <string name="activate_sender_hint">Aktivní SMSdroid\'s odesílatel zprávy.</string>
+    <string name="fix_number1_regex_">Regex 1</string>
+    <string name="fix_number1_replace_">Replace 1</string>
+    <string name="fix_number2_regex_">Regex 2</string>
+    <string name="fix_number2_replace_">Replace 2</string>
+    <string name="fix_number3_regex_">Regex 3</string>
+    <string name="fix_number3_replace_">Replace 3</string>
+    <string name="fix_numbers_regex_hint">Regulérní výraz pro hledání.</string>
+    <string name="fix_numbers_replace_hint">Nahraďte odpovídající text s tímto textem..</string>
+    <string name="use_new_layout_">Use tiled layout</string>
+    <string name="use_new_layout_hint">Use a tiled user interface for conversations</string>
+    <string-array name="themes">
+        <item>Black</item>
+        <item>Light</item>
+    </string-array>
+    <string-array name="textsize">
+        <item>Small</item>
+        <item>Medium</item>
+    </string-array>
+    <string-array name="led_color">
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Magenta</item>
+        <item>Cyan</item>
+    </string-array>
+    <string-array name="led_flash">
+        <item>Flashing</item>
+        <item>Consistently</item>
+    </string-array>
+    <string-array name="vibrate_mode">
+        <item>Default</item>
+        <item>Long</item>
+        <item>Multiple short</item>
+        <item>Multiple long</item>
+        <item>Short, long, short, long</item>
+    </string-array>
+    <string name="reset">Vynulovat</string>
+    <string name="send_logs_hint">Odešlete vaše logy vývojáři.\n Udělejte to pouze, když vás o to požádáme.</string>
+    <string name="sendlog_run_">Spust SendLog</string>
+    <string name="sendlog_run">SendLog bude sbírat protokol zařízení a odešle je vývojáři .\nBudete mít možnost přezkoumat a upravit odesílána data.</string>
+    <string name="sendlog_install_">Install SendLog</string>
+    <string name="sendlog_install">Nainstalujte si zdarma SendLog aplikaci pro sběr protokol zařízení a odeslat ji na vývojáře.</string>
+    <string name="license_">License:</string>
+    <string name="license">GPLv3 - see http://www.gnu.org/licenses/gpl-3.0.txt</string>
+    <string name="author_">Author:</string>
+    <string name="website_">Website:</string>
+    <string name="source_">Zdrojový kód:</string>
+    <string name="changelog_" translatable="false">Seznam změn</string>
+    <string name="mobile_only_hint">Navrhnout pouze mobilní čísla pro příjemce</string>
+    <string name="not_default_app">SMSdroid není výchozí SMS app</string>
+    <string name="not_default_app_message">SMSdroid potřebuje být výchozí SMS app, aby pracovala správně.</string>
+    <string name="forwarded_sms_clean_hint">Strips sender in received sms according to "([0-9a-zA-Z]+):" and use that this number as sender.</string>
+    <string name="theming">Motivy</string>
+    <string name="primary_color_desc">Primární barva motivu. Výchozí je  Material modrá.</string>
+    <string name="accent_color">Accent Color</string>
+
+    <!-- Theme -->
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    <string name="daytime">Daytime</string>
+    <!--Skin-->
+    <string name="red">Red</string>
+    <string name="pink">Pink</string>
+    <string name="purple">Purple</string>
+    <string name="deep_purple">Deep Purple</string>
+    <string name="indigo">Indigo</string>
+    <string name="blue">Blue</string>
+    <string name="light_blue">Light Blue</string>
+    <string name="cyan">Cyan</string>
+    <string name="teal">Teal</string>
+    <string name="green">Green</string>
+    <string name="light_green">Light Green</string>
+    <string name="amber">Amber</string>
+    <string name="orange">Orange</string>
+    <string name="deep_orange">Deep Orange</string>
+    <string name="brown">Brown</string>
+    <string name="black">Black</string>
+    <string name="blue_grey">Blue Grey</string>
+    <string name="supersu">SuperSU</string>
+    <string name="theme">Motiv</string>
+    <string name="skin">Skin</string>
+    <string name="cancel">Zrušit</string>
+    <string name="repository_website">Repository website</string>
+    <string name="all_my_repositories">Všechny moje uložiště</string>
+    <string name="all_my_apps">Včechny moje aplikace</string>
+    <string name="attachment_not_saved">Nemohu uložit přílohu</string>
+    <string name="activate_sender_">Aktivní odesílatel</string>
+    <string name="base_theme">Základní motiv</string>
+    <string name="base_theme_desc">Vyberte jaký chcete motiv světlý, tmavý nebo Amoled černý.</string>
+    <string name="app_name">SMSdroid</string>
+    <string name="autosend_hint">Zasílat odpovědi automaticky. V současné době tuto vlasnost podporuje pouze WebSMS. Ostatní aplikace jen ukážou text.</string>
+    <string name="call">Volat</string>
+    <string name="clear_cache_hint">Vymazaní vnitřní paměti. Doplnění všech dat z externí databáze.</string>
+    <string name="copy_text_">Kopírování textu zpráv</string>
+    <string name="faq_hint">Nějaké tipy a tricky, jak nastavit aplikaci.</string>
+    <string name="filter_spam_">Označit jako Spam</string>
+    <string name="error_unknown">Neznámá chyba</string>
+    <string name="forwarded_sms_clean_">Modifikace přijatých zpráv</string>
+    <string name="mms_not_supported">Tato zpráva je zřejmě MMS. Můžete ji stáhnout pomocí standartní MMS aplikaci.\nClikni zde pro pokračování.</string>
+    <string name="mobile_only_">Pouze mobilní čísla.</string>
+    <string name="decode_decimal_ncr_">Dekodování destinné NCR</string>
+    <string name="decode_decimal_ncr_hint">Někteří poskytovatelé dodávají unicode zprávy jako destinné NCR(&amp;#0000;). Zkontrolujte auto dekodování těchto subjektů.</string>
+    <string name="edit_short_text_">Editace jako krátké zprávy</string>
+    <string name="edit_short_text_hint">Zvažte vstup krátké zprávy. Klávesnice obvykle nahradí vstup s tlačítkem smiley, pokud je povoleno.</string>
+    <string name="error_sending_failed">Odeslání se nezdařilo</string>
+    <string name="error_start_mms_download">Zjištěna chyba při spuštění downloadu MMS. </string>
+    <string name="fix_numbers_hint">Nahraďte některé části čísel regulerním výrazem před odesláním. Většina uživatelů to nepotřebuje měnit.</string>
+    <string name="restore_">Uložit poslední zprávu</string>
+    <string name="textcolor_hint">Barva textu zprávy. </string>
+    <string name="view_contact_">Zobrazit kontakt.</string>
+    <string name="to_hint">Jméno nebo číslo</string>
+    <string name="view_details_">Zobrazit detaily zpráv</string>
+    <string name="textsize_">Velikost textu</string>
+    <string name="textcolor_">Barva textu</string>
+    <string name="show_contact_photo_hint">Zobraz foto konaktu v seznamu zpráv.</string>
+    <string name="textsize_hint">Velikost textu v pixeles, nechte prázdné pro výchozí.</string>
+    <string name="permission_save_to_db">Uložit zprávy do databáze.</string>
+    <string name="permission_save_to_db_description">Uložit zprávy odesláním pomocí jiné aplikace do databáze zpráv.</string>
+    <string name="donate">Dar</string>
+    <string name="forward_">Dopředu</string>
+    <string name="fix_numbers_">Oprava čísel</string>
+    <string name="hide_delete_all_threads_">Schovat všechny smazané vlákna</string>
+    <string name="hide_delete_all_threads_hint">Schovat všechny smazaná vlákna v nstavení menu.</string>
+    <string name="hide_message_count_">Schovat počet zpráv.</string>
+    <string name="hide_message_count_hint">Schovat počet zpráv na seznamu zpráv.</string>
+    <string name="hide_paste_">Schovat tlačítko "přilepit"</string>
+    <string name="hide_paste_hint">Schovat tlačítko "přilepit" v textovém poli.</string>
+    <string name="hide_restore_">Schovat tlačítko "uložení poslední zprávy" </string>
+    <string name="hide_send_">Schovat tlačítko "odeslat"</string>
+    <string name="hide_send_hint">Schovat tlačítko "odeslat" blízko textového pole.</string>
+    <string name="hide_widget_label_">Schovat widget\'s nápis</string>
+    <string name="hide_widget_label_hint">Schovat název widgetu.</string>
+    <string name="mark_all_read_">Označit všechny jako přečtené.</string>
+    <string name="me">Já</string>
+    <string name="message_options_">Nastavení zpráv.</string>
+    <string name="new_message_hint">Psaní nové zprávy.</string>
+    <string name="not_implemented">Bohužel, není ještě implementováno.</string>
+    <string name="notification_icon_">Ikona pro oznamování.</string>
+    <string name="receive_led_flash_hint">Nastavení blikání LED </string>
+    <string name="receive_no_text_">Schovat text odesílatele.</string>
+    <string name="receive_no_text_hint">Schovat text odesílatele v upozornění.</string>
+    <string name="receive_vibrate_hint">Vibrace při příjmu</string>
+    <string name="receive_vibrate_mode_">Mode vibrací.</string>
+    <string name="send_logs_">Odeslat logy.</string>
+    <string name="textcolor_ignore_conv_hint">Ignorovat barvu textu v seznamu vláken.</string>
+    <string name="show_text_field_hint">Zobraz textové pole místo tlačítka odpověď. </string>
+    <string name="show_target_app_">Zobrazit cílovou aplikaci.</string>
+    <string name="primary_color">Primární barva</string>
+    <string name="sender_name">SMS (SMSdroid)</string>
+
+
+</resources>
